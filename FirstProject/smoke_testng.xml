@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"><!-- Before suite -->
+  <test thread-count="5" name="Test"><!-- Before Test -->
+  <groups>
+  <run>
+    <include name="smoke"></include>
+   </run>
+   </groups>
+    <classes><!-- Before class  -->
+      <class name="Firstpackage.LoginTest"></class> 
+      <class name="Firstpackage.NewTest"></class> 
+       </classes><!-- after class -->
+  </test> <!-- after Test -->
+</suite> <!-- After Suite --> 
