@@ -10,6 +10,7 @@ public class HomePage {
 	@BeforeMethod
 	public void Precondition() {
 		System.out.println("Home Page Before method");
+		
 	}
 	
 	@Test
