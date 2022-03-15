@@ -17,5 +17,9 @@ public class NewTest {
 	  System.out.println("I am test case");
   }
   
+  public void t1() {
+	  
+  }
+  
  
 }
