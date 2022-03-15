@@ -14,6 +14,9 @@ public class NewTest {
   @Test
   public void f() {
 	  System.out.println("I am test case ");
+	  System.out.println("I am test case ");
+	  System.out.println("I am test case ");
+	  System.out.println("I am test case ");
   }
   @BeforeMethod
   public void beforeMethod() {
