@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[I am login information from TC3]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="70" started-at="2022-03-13T16:29:00Z" finished-at="2022-03-13T16:29:00Z">
+  <suite name="Default suite" duration-ms="129" started-at="2022-03-16T09:18:27 IST" finished-at="2022-03-16T09:18:27 IST">
     <groups>
       <group name="regression">
-        <method signature="LoginTest.TC3()[pri:0, instance:Firstpackage.LoginTest@51081592]" name="TC3" class="Firstpackage.LoginTest"/>
-        <method signature="LoginTest.TC1()[pri:2, instance:Firstpackage.LoginTest@51081592]" name="TC1" class="Firstpackage.LoginTest"/>
+        <method signature="LoginTest.TC3()[pri:0, instance:Firstpackage.LoginTest@6737fd8f]" name="TC3" class="Firstpackage.LoginTest"/>
+        <method signature="LoginTest.TC1()[pri:2, instance:Firstpackage.LoginTest@6737fd8f]" name="TC1" class="Firstpackage.LoginTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="LoginTest.TC1()[pri:2, instance:Firstpackage.LoginTest@51081592]" name="TC1" class="Firstpackage.LoginTest"/>
+        <method signature="LoginTest.TC1()[pri:2, instance:Firstpackage.LoginTest@6737fd8f]" name="TC1" class="Firstpackage.LoginTest"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="LoginTest.TC2()[pri:1, instance:Firstpackage.LoginTest@51081592]" name="TC2" class="Firstpackage.LoginTest"/>
-        <method signature="LoginTest.TC1()[pri:2, instance:Firstpackage.LoginTest@51081592]" name="TC1" class="Firstpackage.LoginTest"/>
+        <method signature="LoginTest.TC2()[pri:1, instance:Firstpackage.LoginTest@6737fd8f]" name="TC2" class="Firstpackage.LoginTest"/>
+        <method signature="LoginTest.TC1()[pri:2, instance:Firstpackage.LoginTest@6737fd8f]" name="TC1" class="Firstpackage.LoginTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="70" started-at="2022-03-13T16:29:00Z" finished-at="2022-03-13T16:29:00Z">
+    <test name="Default test" duration-ms="129" started-at="2022-03-16T09:18:27 IST" finished-at="2022-03-16T09:18:27 IST">
       <class name="Firstpackage.LoginTest">
-        <test-method status="PASS" signature="TC2()[pri:1, instance:Firstpackage.LoginTest@51081592]" name="TC2" duration-ms="16" started-at="2022-03-13T16:29:00Z" description="Verify that system should not allow to login with invalid credential" finished-at="2022-03-13T16:29:00Z">
+        <test-method status="PASS" signature="TC2()[pri:1, instance:Firstpackage.LoginTest@6737fd8f]" name="TC2" duration-ms="16" started-at="2022-03-16T09:18:27 IST" description="Verify that system should not allow to login with invalid credential" finished-at="2022-03-16T09:18:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC2 -->
-        <test-method status="PASS" signature="TC3()[pri:0, instance:Firstpackage.LoginTest@51081592]" name="TC3" duration-ms="3" started-at="2022-03-13T16:29:00Z" description="Verify the forgot password functionality " depends-on-methods="Firstpackage.LoginTest.TC2" finished-at="2022-03-13T16:29:00Z">
+        <test-method status="PASS" signature="TC3()[pri:0, instance:Firstpackage.LoginTest@6737fd8f]" name="TC3" duration-ms="6" started-at="2022-03-16T09:18:27 IST" description="Verify the forgot password functionality " depends-on-methods="Firstpackage.LoginTest.TC2" finished-at="2022-03-16T09:18:27 IST">
           <reporter-output>
             <line>
               <![CDATA[I am login information from TC3]]>
             </line>
           </reporter-output>
         </test-method> <!-- TC3 -->
-        <test-method status="PASS" signature="TC1()[pri:2, instance:Firstpackage.LoginTest@51081592]" name="TC1" duration-ms="7" started-at="2022-03-13T16:29:00Z" description="Verify that user is able to login with valid credential" finished-at="2022-03-13T16:29:00Z">
+        <test-method status="PASS" signature="TC1()[pri:2, instance:Firstpackage.LoginTest@6737fd8f]" name="TC1" duration-ms="39" started-at="2022-03-16T09:18:27 IST" description="Verify that user is able to login with valid credential" finished-at="2022-03-16T09:18:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC1 -->
       </class> <!-- Firstpackage.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
